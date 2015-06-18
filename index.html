@@ -1,0 +1,1701 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="jquery-mobile/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>EL GYM</h1>
+	</div>
+     <div> 
+     Muchas veces nos encontramos con la duda de si asistir al gimnasio nos trae más beneficios que el ejercitarnos solos en nuestras casas o en parques, etc. Cualquier forma de ejercitarte es buena, pero claro los gimnasios al ser un lugar especializado para el ejercicio, traen algunas ventajas que otros lugares no tienen.<br>
+Al asistir a un gimnasio con regularidad lo vas convirtiendo en un estilo de vida porque te relacionas con las personas que asisten al mismo lugar que tu y que realizan tu mismo tipo de actividad, lo que hace que te sientas más cómodo llevando este estilo de vida al ser compartido.<br><br>
+La sociabilidad es un factor muy importante que encuentras en un gimnasio porque convives constantemente con personas que comparten intereses contigo y el hacer amistad es una fuerte motivación para no faltar a tus entrenamientos, lo cual es muy importante porque la constancia es lo que te ayuda a lograr objetivos y a conservar una buena salud.
+  
+  <div  align="center">
+  
+      <img src="Imagenes y videos/gym-hero.png" width="382" height="264">
+      </div>
+    <div  align="center">
+    
+</div>
+</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page2">Ejercicios</a></li>
+            <li><a href="#page3">Tips</a></li>
+			<li><a href="#page4">Dietas</a></li>
+            <li><a href="#page5">Motivacional</a></li>
+            <li><a href="#page6">Otros Ejercicios</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>"Tu puedes Lograr lo que te propongas"</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1>Ejercicios Para:</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page7">Brazo</a></li>
+            <li><a href="#page8">Pecho</a></li>
+			<li><a href="#page9">Pierna</a></li>
+            <li><a href="#page10">Abdomen</a></li>
+            <li><a href="#page11">Espalda</a></li>
+            <br>
+             <a href="#page" data-role="button">Regresar</a>
+		</ul>				
+	</div>
+	<div data-role="footer">
+		<h4>"No Pain No Gain..."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+		<h1>Tips Y Trucos</h1>
+	</div>
+	<div data-role="content">
+    <ul data-role="listview">	
+	      <li><a href="#page12">Factores que influyen en un rápido crecimiento muscular</a></li>
+          <li><a href="#page13">Cómo hacer crecer los glúteos sin ganar volumen en piernas</a></li>
+          <li><a href="#page14">Consejos y precauciones a tomar en cuenta para correr de noche</a></li>
+          <li><a href="#page15">¿Cómo lograr una tonificación muscular?</a></li>
+          <li><a href="#page16">¿Qué hacer primero, definir o ganar músculo?</a></li>
+          <li><a href="#page17">¿Qué debo hacer si quiero perder peso de forma rápida y natural?</a></li>
+          <br>
+             <a href="#page" data-role="button">Regresar</a>
+
+           		</ul>
+	</div>
+	<div data-role="footer">
+		<h4>"Cuando mas sudas en el entrenamiento, menos sangras en la batalla"</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<h1>Dietas</h1>
+	</div>
+	<div data-role="content">	
+    <ul data-role="listview">
+	<li><a href="#page18">Dieta 1 (BAJAS DE PESO)</a></li>
+    <li><a href="#page19">Dieta 2 (SUBIR MASA MUSCULAR)</a></li>
+<br>
+             <a href="#page" data-role="button">Regresar</a>
+
+           
+         </ul>        	
+	</div>
+	<div data-role="footer">
+		<h4>"Recuerda esto: tu cuerpo es tu esclavo. Trabaja para ti, no tú para el."</h4>
+	</div>
+</div>
+<div data-role="page" id="page5">
+	<div data-role="header">
+		<h1>Motivacional</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+	<li><a href="#page24">video 1</a></li>
+    <li><a href="#page25">video 2</a></li>
+    <li><a href="#page26">video 3</a></li>	
+   <br>
+             <a href="#page" data-role="button">Regresar</a>	
+	</ul>
+    </div>
+	<div data-role="footer">
+		<h4>"La pasión triunfa sobre todo."</h4>
+	</div>
+</div>
+<div data-role="page" id="page6">
+	<div data-role="header">
+		<h1>Otros Ejercicios</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+	<li><a href="#page27">CROSSFIT</a></li>
+    <li><a href="#page28">SPINING</a></li>
+    <li><a href="#page29">NATACION</a></li>		
+    <br>
+             <a href="#page" data-role="button">Regresar</a>	
+	</ul>
+    </div>
+	<div data-role="footer">
+		<h4>"Cuida de tu cuerpo. Es el único lugar que tienes para vivir."</h4>
+	</div>
+</div>
+<div data-role="page" id="page7">
+	<div data-role="header">
+		<h1>Brazo</h1>
+	</div>
+    <div data-role="header" >
+		<h1>Ejercicios de Brazos: Biceps</h1>
+	</div>
+	<div data-role="content">
+    <ul data-role="listview">	
+	      <li><a href="#page30">Predicador con barra</a></li>
+          <li><a href="#page31">Curl concentracion con mancuerna</a></li>
+          <li><a href="#page32">Curl con Barra</a></li>
+          <li><a href="#page33">Curl en Martillo</a></li>
+          <li><a href="#page34">Predicador con Mancuerna</a></li>
+          </ul>
+           <br>
+          <div data-role="header" >
+          
+		<h1>Ejercicios de Brazos: Triceps</h1>
+	</div>
+    <div data-role="content">
+    <ul data-role="listview">
+          <li><a href="#page35">Press de banca con agarre cerrado</a></li>
+          <li><a href="#page37">Crossface</a></li>
+          <li><a href="#page38">"Patadas traseras"</a></li>
+          <li><a href="#page39">Jalones en Polea</a></li>
+          <li><a href="#page40">Jalones en Polea Invertido</a></li>
+          <li><a href="#page41">Extensiones Encima de Cabeza</a></li>
+          <li><a href="#page42">Press Frances</a></li>
+          <li><a href="#page43">Fondos</a></li>
+
+ <br>
+             <a href="#page2" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>	
+
+       </ul>
+    </div>
+	<div data-role="footer">
+		<h4>"El dolor de la disciplina no se parece en nada al dolor de la decepción."</h4>
+	</div>
+</div>
+</div>
+
+<div data-role="page" id="page8">
+	<div data-role="header">
+		<h1>Pectorales</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">	
+       <li><a href="#page44">Press de Banca</a></li>
+       <li><a href="#page45">Press en Banca Inclinada</a></li>
+       <li><a href="#page46">Press en Banca Declinada</a></li>
+       <li><a href="#page47">Cristos</a></li>
+       <li><a href="#page48">Fondos Militares o Lagartijas</a></li>
+       
+        <br>
+             <a href="#page2" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>	
+
+       
+  </ul>        	
+	</div>
+	<div data-role="footer">
+		<h4>"Si quieres verme conseguir algo, dime que no puedo hacerlo."</h4>
+	</div>
+</div>
+
+
+
+<div data-role="page" id="page9">
+	<div data-role="header">
+		<h1>Pierna</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">	
+       <li><a href="#page49">Desplantes</a></li>
+       <li><a href="#page50">Sentadilla</a></li>
+       <li><a href="#page51">Elevacion lateral</a></li>
+       <li><a href="#page52">Eleva la pierna</a></li>
+       <li><a href="#page53">Levanta la cadera</a></li>
+ <br>
+             <a href="#page2" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>	
+       
+       
+  </ul>        	
+	</div>
+	<div data-role="footer">
+		<h4>"La intensidad construye inmensidad."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page10">
+	<div data-role="header">
+		<h1>Abdominales</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">	
+       <li><a href="#page54">Curl Abdominal</a></li>
+       <li><a href="#page55">Flexion de Piernas en Banca</a></li>
+       <li><a href="#page56">Elevación de piernas</a></li>
+       <li><a href="#page57">Laterales con mancuernas</a></li>
+       <li><a href="#page58"> Manos-Pies Acostado</a></li>
+ <br>
+             <a href="#page2" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>	
+ 
+ 
+  </ul>        	
+	</div>
+	<div data-role="footer">
+		<h4>"La pregunta no es quien me va a dejar, es quien me va a parar."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page11">
+	<div data-role="header">
+		<h1>Espalda</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">	
+       <li><a href="#page59">Polea Tras-Nuca</a></li>
+       <li><a href="#page60">Polea al Pecho</a></li>
+       <li><a href="#page61">Dominadas</a></li>
+       <li><a href="#page62">Remo Inclinado con Barra</a></li>
+       
+       <br>
+             <a href="#page2" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>	
+ 
+       
+  </ul>        	
+	</div>
+	<div data-role="footer">
+		<h4>"Cada paso que das es un paso alejado de donde solías estar."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page12">
+	<div data-role="header">
+		<h1>FACTORES QUE AFECTAN EL CRECIMIENTO MUSCULAR RAPIDO</h1>
+	</div>
+	<div data-role="content">	
+		La motivación, constancia, esfuerzo y mucha disciplina son las principales características que una persona debe cumplir para poder llevar a cabo un proceso de transformación en el que las ganancias de fuerza y masa muscular sean tan significativas como sea posible, pero además de ello, existen otros aspectos que interfieren de manera importante en el proceso y que debemos tener en cuenta obligatoriamente para poder conseguir los objetivos propuestos.
+
+A continuación te presentamos, además de los tres principales pilares de la musculación, los factores que influyen en un rápido crecimiento muscular.
+<br>
+1. El tiempo dedicado al gimnasio <br>
+2. La edad <br>
+3. El género <br>
+4. La técnica de ejecución <br>
+5. La intensidad de los entrenamientos <br>
+6. La memoria muscular
+<div  align="center">
+  
+   <img src="Imagenes y videos/descarga (2).jpeg" width="361" height="267">
+      </div>
+
+ <br>
+             <a href="#page3" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>	
+
+	</div>
+	<div data-role="footer">
+		<h4>"Nuestra autoestima aumenta cuando salimos de la zona de confort y hacemos algo diferente."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page13">
+	<div data-role="header">
+		<h1>Cómo hacer crecer los glúteos sin ganar volumen en piernas</h1>
+	</div>
+	<div data-role="content">	
+Aunque siempre hemos y vamos a recomendar un proceso de transformación del cuerpo completo, es decir, donde todos los músculos sean trabajados adecuadamente para evitar la descompensación muscular, hay casos donde podemos hacer excepciones, como en el de las mujeres que tienen una genética que les permite ―u obliga― desarrollar las piernas de forma excesiva, y que por ello deben tener en cuenta únicamente una serie de ejercicios específicos para poder desacelerar este crecimiento, pero sin perturbar al desarrollo de los glúteos.
+Afortunadamente, el culturismo es una disciplina en la que se pueden seleccionar el tipo o los grupos musculares a trabajar, y por ejemplo, una mujer que quiere darle volumen a sus glúteos, pero no sin favorecer al crecimiento de las piernas, debe seguir al pie de la letra las indicaciones siguientes:
+<br>
+En primer lugar, debe reducir los entrenamientos que involucran ejercicios para trabajar los grandes músculos que conforman las piernas, tales como el cuádriceps y los isquiotibiales.
+<br>
+En lugar de ello, se recomienda aumentar las sesiones de 3 a 4 veces por semana para entrenar los glúteos.
+Y por último, tener una ingesta mayor de carbohidratos complejos para acumular más grasa en la zona.
+<div  align="center">
+  
+<img src="Imagenes y videos/gluteos-firmes-5-minutos.jpg" width="350" height="220">
+      </div>
+
+<br>
+             <a href="#page3" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>	
+
+
+	</div>
+	<div data-role="footer">
+		<h4>"Siempre parece imposible hasta que se hace."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page14">
+	<div data-role="header">
+		<h1>Consejos y precauciones a tomar en cuenta para correr de noche</h1>
+	</div>
+	<div data-role="content">	
+Correr de noche es un actividad que suele ser más común en primavera y verano debido a las oleadas de calor y a los días más largos, que impiden una buena experiencia del running y que incluso de hacerlo frecuentemente, pueden llevar a la aparición de padecimientos como la insolación, una mayor fatiga o incluso la deshidratación.
+
+Si eres un persona que corre de noche o planea hacerlo durante estas épocas del ano, entonces te has planteado una buena decisión, no obstante, recuerda que sin importar el día, hay una serie de factores que debes tener en cuenta y en base a ello, considerar algunos consejos y precauciones para que el running nocturno sea placentero y sobre todo, seguro.
+<br>
+Escoge el lugar adecuado: La mayoría de las personas prefieren correr en instalaciones deportivas como los campos de futbol o beisbol a campo abierto, o sin ir más lejos, en el parque de la colonia. Por otra parte, si eres de aquellas que prefieren salir a la avenida y hacer una carrera “plana”, entonces asegúrate que el camino elegido sea seguro e iluminado, además de estar en buen estado y en el que no haya percances como baches y pozos que puedan en poner en riesgo tu ingredidad.<br>
+Procura correr en companía: Correr en grupos de dos o más personas es una excelente opción para mantener la motivación en todo momento y mejorar las marcas de cada persona; aunque otra razón importante es para mejorar la seguridad de todos los runners, ya que en caso de algún incidente, las personas que te acompanan estarán cerca para brindarte ayuda inmediata, y viceversa.<br>
+Ropa o accesorios reflectantes: Este tipo de atuendos igual pueden conseguirse fácilmente en las tiendas deportivas y son de gran utilidad para correr en las noches, sobre todo si lo haces en lugares donde concurre el tráfico vehícular como las avenidas o las calles principales.<br>
+Presta atención al entorno: Sobre todo si corres en los lugares mencionados anteriormente, aunque la ropa reflectante es adecuada para que los conductores puedan tomar precauciones desde distancias más alejadas, todavía hay quienes manejan en condiciones no adecuadas, pudiendo ocasionar un accidente.<br>
+Mantenerte hidratado: Si bien el calor es un claro índice de que el cuerpo está expulsando los líquidos del cuerpo, en las noches es muy difícil percibir esta sensación, pues el clima suele ser más fresco, aún así, si no sientes calor, recuerda beber agua constantemente para mantener al cuerpo hidratado en todo momento y mantener el rendimiento y la integridad física.<br>
+Correr de noche es la opción más adecuada para las temporadas de calor que suelen hasta desmovitar a muchos runners para continuar con sus carreras. Por esa razón, si buscas mejorar tus marcas y no dejar de practicar debido a las condiciones climáticas, hazlo de noche, pero con las precauciones necesarias.
+	
+<div  align="center">
+  
+<img src="Imagenes y videos/Correr-de-noche.jpg" width="325" height="207">
+      </div>
+
+<br>
+             <a href="#page3" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>	
+    
+    
+    
+    </div>
+	<div data-role="footer">
+		<h4>"Saber lo que es correcto no significa mucho al menos que hagas lo que es correcto."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page15">
+	<div data-role="header">
+		<h1>¿Cómo lograr una tonificación muscular?</h1>
+	</div>
+	<div data-role="content">
+Tonificación o Tonificar, son palabras que suelen escucharse a diario en los gimnasios y de las que muchas personas tienen conceptos poco claros, o ya definitivamente, equívocos. Se entiende por tonificación al proceso que consiste en marcar la musculatura, mediante la eliminación de la grasa corporal, hasta el punto que esta llegue a un porcentaje demasiado bajo, y que por supuesto, debe estar acompanada de la previa ganancia de masa muscular o hipertrofia.
+
+Básicamente, este es el proceso de transformación del cuerpo del que tanto solemos hablar en el sitio y que en pocas palabras empieza con la etapa de ganancia muscular y concluye con la fase de pérdida de grasa; en ambos períodos es muy importante la realización de ejercicios y seguir una dieta balanceada, según el objetivo que se busca.
+
+Una persona que acude por primera vez al gimnasio y busca perder grasa, al mismo tiempo que ganar masa muscular, tiene por delante todo un camino extenso y difícil por recorrer, pues esto requiere de mucho esfuerzo y sacrificios que no muchos están dispuestos a superar. Si bien es cierto que el músculo, al ser un tejido metabólicamente activo y que por tanto es capaz de acelerar la tasa metabólica, y por ende, la quema de grasas, antes que nada, hay que entender la gran diferencia que existe entre bajar de peso a través de la eliminación de grasas y definir la musculatura; pues como ya se adelantaba unas líneas más arriba, la tonificación requiere de un bajo índice de grasa corporal, que ronda entre el 10 y 12%.
+
+No obstante, hay quienes recurren a ciertos “trucos”, no para acelerar el proceso en sí, sino para lograr cambios notables, pero sin llegar a ser definitivos y que muchas veces actúan como una forma de estimular el entrenamiento y el buen comer. Caso contrario, son los culturistas que prefieren realizar estos procesos en etapas largas, primero para conseguir un volumen de masa muscular impensable, y después continuar con la definición de la misma.
+
+<div  align="center">
+  <img src="Imagenes y videos/Abdominales-en-Casa.jpg" width="310" height="262">
+
+      </div>
+
+<br>
+             <a href="#page3" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>	
+
+
+
+</div>
+	<div data-role="footer">
+		<h4>"No hay secretos para el éxito. Es el resultado de la preparación, trabajo duro y aprender del fracaso."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page16">
+	<div data-role="header">
+		<h1>¿Qué hacer primero, definir o ganar músculo?</h1>
+	</div>
+	<div data-role="content">	
+Sin duda una de las cuestiones más controversiales dentro de los salones de entrenamiento, y que se suele dar principalmente entre aquellos que acuden al gimnasio por primera vez, es si deben definir primero o empezar a ganar masa muscular.
+
+Esta cuestión surge a partir del mal entendimiento que se tiene por la definición del cuerpo, y es que muchos novatos que presumen de un cuerpo delgado y con poca acumulación de grasa, piensan que si empiezan con la etapa de definición, podrán verse más musculosos y robustos como aquellos que han llevado un correcto entrenamiento a través de los anos.
+
+Sin embargo, el planteamiento es totalmente erróneo, ya que para definir el músculo, primero hay que crearlo. Hasta aquí, hemos respondido la duda principal, sin embargo, el tema es mucho más complejo de lo que parece. Y es que la musculación a su vez, surge a través de la ganancia de fuerza, y que se logra a partir de los entrenamientos respectivos. No obstante, para lograr cualquier objetivo, se deben tomar en cuenta los diferentes factores que influyen, con respecto al tipo de persona que busca alcanzar dicho objetivo.
+
+Una persona que es delgada, primero debe empezar a construir un mayor volumen, realizando entrenamientos de pesas, así como una dieta hipercalórica moderada, de manera que entre ambos factores (sin olvidar el correcto descanso), pueda tener lugar el crecimiento de los músculos, y posteriormente continuar con la etapa de definición.<br>
+Por otra parte, están las personas que sufren de sobrepeso y que se ven acomplejadas debido a su condición, creyendo que si empiezan a utilizar pesas en sus entrenamientos se pondrán más grandes, pues “la grasa se endurece y luego es más difícil quemarla”. Esta es una creencia errónea; errada, me atrevería a decir, y es que la grasa no se endurece con los ejercicios de musculación, sino todo lo contrario, se elimina de manera más eficaz que con el básico entrenamiento cardiovascular. Esto se debe a que el músculo es un tejido metabólicamente activo y que por tanto requiere de energías para poder mantenerse en el cuerpo, propiciando a la estimulación de la tasa metabólica, incluso en condiciones de reposo, y por tanto, acelerando la quema de grasas.
+
+Existe otro grupo conformado por mujeres, y que piensan que por tener una complexión delgada, entonces deben empezar a tonificar de inmediato, limitándose a levantar mancuernas de menos de 5kg y con repeticiones bastas. Esto también es equívoco y como en cualquier caso, primero debe iniciarse con la musculación; pero no temas, que levantar mayores cargas no propiciará a que ganes un cuerpo como el de Arnold Schwarzenegger, pues existe un factor determinante en el crecimiento de masa muscular, y que se conoce como “testosterona”, hormona que las mujeres producen en cantidades tan íntimas, que no pueden estimular la ganancia de masa magra como pasa con los hombres.<br>
+En conclusión
+<br>
+Para finalizar, no queda nada más que reafirmar la respuesta y que es en cualquiera de lo casos, ganar masa muscular primero, siempre y cuando estés empezando en el mundillo del fitness. Ahora, si eres una persona que lleva entrenando por meses y ya ha empezado a ganar masa muscular, la decisión sobre si seguir entrenando con pesas o empezar a definir, depende únicamente de ti y cómo te sientas con tu cuerpo.
+
+Puedes leer el artículo sobre la tonificación y sus principios para conocer más sobre el tema.
+<div  align="center">
+<img src="Imagenes y videos/Proteína-para-aumentar-masa-muscular1.jpg" width="350" height="232">
+      </div>
+
+<br>3
+             <a href="#page3" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>	
+
+
+
+</div>
+	<div data-role="footer">
+		<h4>"Si realmente quieres hacer algo, encontrarás una forma. Si no, encontrarás una excusa."</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page17">
+	<div data-role="header">
+		<h1>¿Qué debo hacer si quiero perder peso de forma rápida y natural?</h1>
+	</div>
+	<div data-role="content">	
+Antes de empezar a debatir sobre los diferentes métodos más efectivos para adelgazar, hay que entender la gran diferencia que existe entre “perder peso” y “perder grasa”. Mientras el primer concepto se refiere a la disminución de peso corporal, independientemente del origen (ya sea por la eliminación de líquidos acumulados, la degradación de los músculos, etc.), el segundo hace referencia a la pérdida específica del tejido adiposo acumulado y que es el causante de la obesidad y otras enfermedades relacionadas.
+<br>
+Una persona que quiere adelgazar, en realidad debería proponerse a perder o quemar grasas, pues esta es la puerta que conduce a una vida más saludable y un cuerpo más atractivo. Para este objetivo, la industria y la misma desinformación se ha encargado de mitificar todo lo relacionado con el tema, llegando hacer que las personas piensen que la “pérdida de peso rápida” es posible y beneficiosa para el organismo. Bien, quizás esto es cierto, y es que las fajas de calor, las cremas reductoras, píldoras adelgazantes y cuantos más productos químicos podemos conseguir en el mercado, han demostrado su efectividad para, ¡ojo!, PERDER PESO ―más no grasa―, y es ahí donde deberíamos prestar atención.
+<br>
+Por otra parte, cuando hablamos de la transformación del cuerpo, ya sea para la construcción de masa muscular o para adelgazar mediante la combustión de grasas, debemos entender que se trata de un proceso lento, que requiere de paciencia, esfuerzo y sacrificios, aunque estos últimos, en menor medida. Pero, ¿por qué es esto así?. Simplemente porque el cuerpo ha evolucionado para adaptarse a los cambios, y cuando estos suceden de manera rápida, el organismo comienza a desarrollar mecanismos de defensa para preservarse, llegando en muchas ocasiones a causar estragos a nivel metabólico, hormonal, físico o incluso mental.
+<br>
+Un claro ejemplo es el de las personas que se disponen a disminuir su masa corporal a través de la abstinencia de la comida. En un principio la falta de alimentos parece no afectar más que a la sensación de hambre, sin embargo, cuando esta se prolonga con los días, los nuevos sistemas defensivos del cuerpo se empiezan a manifestar, debido a la falta de nutrientes, propiciando a que el organismo se aferre a las pocas reservas almacenadas y para poder seguir funcionando, empezar a utilizar otras fuentes de energía, como el glucógeno y que es indispensable para la construcción y manutención de masa magra (músculo). Lo que sucede en este caso, es que el metabolismo se alenta y con ello todas las consecuencias que ya conocemos se hacen presentes, empezando por una mayor propensión a la acumulación de grasas. Dicho de otra forma, dejar de comer para quemar grasas es como el tiro que se sale por la culata (Jamás se debe hacer).
+
+<div  align="center">
+
+<img src="Imagenes y videos/como-bajar-de-peso-de-forma-natural1.jpg" width="300" height="258">
+
+      </div>
+
+<br>
+             <a href="#page3" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>	
+
+
+</div>
+	<div data-role="footer">
+		<h4>"Un campeón es alguien que se levanta cuando otros no pueden."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page18">
+	<div data-role="header">
+		<h1>Dieta para bajar de peso</h1>
+	</div>
+	<div data-role="content">	
+Dieta para Adelgazar 5 kilos, día a día
+<br>
+Primer día
+<br>
+Desayuno: té negro o café, 1/2 naranja, 1 rebanada de pan tostado integral con una fina capa de queso fresco.<br>
+Almuerzo: 100 gramos de carne magra, 1 taza de judías verdes, 1 taza de zanahorias, 1 taza de postre de helado de vainilla.<br>
+A media tarde: una manzana y un té
+Cena:1/2 lata de atún al natural, 1 tostada de pan integral, café negro o té.
+ATENCION AL “HELADO DE VAINILLA”<br>
+
+No se trata de un helado, en realidad se hace con 4 claras batidas al punto de nieve y se espolvorea vainilla. Se le echa también edulcorante. Lo metes en la nevera antes de tomarlo y queda con la textura, el sabor y el aspecto de un helado de vainilla. La idea es consumir 1 taza o media taza de proteínas según el día.<br>
+Para que lo sepas: Las cuatro claras de huevo tienen solo 54 calorías, 0 gramos de grasa, 166 mg de sodio, 163 de potasio, 11 mg de magnesio, 7 mg de calcio,0,1 de hierro y vitamina A, C, D, y B6. ¡¡¡Lo mejor: 11 gramos de proteínas!!!
+<br>
+Un hombre adulto de 75 kilos necesita: 62 g al día de proteínas, una mujer de 65 kg necesita 53 gramos al día de proteínas.
+<br>
+Segundo día
+<br>
+Desayuno: 1 huevo (cocido, a la plancha o en tortilla francesa con muy poco aceite), 1 rebanada de pan tostado integral, 1/2 plátano, café negro o té.<br>
+Almuerzo: 1 filete pequeno de ternera, 1 taza de brócoli, 1/2 taza de zanahorias, 1/2 taza de postre de helado de vainilla.<br>
+A media tarde: medio plátano y un té.<br>
+Cena: 1 taza de queso fresco y 6 galletas saladas.<br>
+Tercer día<br>
+
+Desayuno: una manzana, 30 gramos de queso cheddar, cinco galletas saladas, té negro o café.<br>
+Almuerzo:1 lata de atún al natural, 1 taza de zanahorias, 1 taza de coliflor, y 1/2 taza de postre de helado de vainilla.<br>
+A media tarde: una manzana y un te
+Cena:  un huevo duro, una rebanada de pan tostado integral
+
+<div  align="center">
+
+<img src="Imagenes y videos/Dieta-Mediterranea-productos.jpg" width="300" height="220">
+      </div>
+
+<br>
+             <a href="#page4" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>	
+
+
+</div>
+	<div data-role="footer">
+		<h4>"El dolor es temporal, el orgullo para siempre."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page19">
+	<div data-role="header">
+		<h1>Super dieta de volumen</h1>
+	</div>
+	<div data-role="content">	
+Ya lo hemos mencionado en innumerables ocasiones; para ganar masa muscular no se requiere únicamente de hacer arduo ejercicio día a día, sino que también se debe alimentar de la forma más adecuada, para permitir al cuerpo dar paso a la síntesis de proteínas a través del consumo de las mismas, lo que provoca la regeneración de las fibras musculares y su eventual crecimiento.<br>
+
+La siguiente es una dieta especialmente disenada para esto. Los alimentos incluidos suelen ser aquellos que se encuentran en la despensa de cualquier hogar, así que adaptarse a ella no va a ser un problema.
+
+Desayuno
+<br>
+400 ml de leche semi-descremada<br>
+Una taza de café<br>
+Un vaso de zumo de naranja<br>
+Una pieza de fruta<br>
+100 gramos de cereales ricos en fibra<br>
+Merienda
+<br>
+Dos rebanadas de pan integral<br>
+80 gramos de pechuga de pavo magra o 70 gramos de jamón serrano<br>
+150 gramos de queso fresco sin grasas<br>
+Almuerzo
+<br>
+150 gramos de pasta integral o legumbres<br>
+Elegir entre 150 gramos de filete de ternera o pechuga de pavo, o 120 gramos de atún en lata<br>
+Elegir entre ensalada de verdura mixta / 250 gramos de setas o berenjenas / 200 gramos de
+espárragos en lata<br>
+Dos cucharadas de aceite de oliva o cualquier otro alino
+Elegir entre 6 tostadas integrales / 100 gramos de pan integral<br>
+Elegir entre 150 gramos de plátano / 200 gramos de manzana, kiwi, naranjas o cualquier otra fruta/1 yogur natural sin grasas<br>
+Segunda merienda
+<br>
+Elegir entre 2 piezas de fruta / 300 ml de zumo de naranja / 200 ml de yogur líquido<br>
+Cena<br>
+
+Elegir entre 300 gramos de papas cocidas / 80 gramos de pasta o arroz blanco<br>
+Elegir entre 150 gramos de pechuga de pollo / 120 gramos de filete de ternera, conejo o solomillo / 150 gramos de langostinos o lenguado / 120 gramos de salmón<br>
+Elegir entre 300 gramos de ensalada mixta / 250 gramos de calabacín, pimiento o champinones / 100g de guisantes frescos.<br>
+Dos cucharadas de aceite de oliva o cualquier otro alino
+80 gramos de pan de centeno o pan integral<br>
+1 yogur natural sin grasas
+
+<div  align="center">
+
+<img src="Imagenes y videos/dieta-volumen-muscular.jpg" width="380" height="243">
+      </div>
+
+<br>
+             <a href="#page4" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>	
+
+
+</div>
+	<div data-role="footer">
+		<h4>"Demasiado ocupado es un mito. La gente busca tiempo para las cosas que son importantes."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page30">
+	<div data-role="header">
+		<h1>Predicador con barra</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:<br>
+
+• Sentado en una banca para predicador, sostenga una barra con las manos colocadas a una separación igual que la anchura de sus hombros, con las palmas hacia adentro.
+<br>
+• Extienda ambos brazos para descender la barra.
+<br>
+• Ascienda la carga por medio de la flexión de sus brazos.
+<br>
+Rutina para brazo:3 series de 10 repeticiones.
+
+<div  align="center">
+  
+<img src="Imagenes y videos/biceps1.jpg" width="350" height="214">
+      </div>
+
+<br>
+             <a href="#page7" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>	
+
+
+</div>
+	<div data-role="footer">
+		<h4>"La fuerza no viene de una capacidad física. Viene de una voluntad indomable."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page31">
+	<div data-role="header">
+		<h1>Curl concentracion con mancuerna</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+• Sentado (a), sostenga una mancuerna con una de sus manos y apoye la otra mano en su muslo.
+<br>
+• Descienda la mancuerna con desplazamiento solo del antebrazo hasta la extensión completa del brazo.
+<br>
+• Luego flexione el brazo para elevar la carga.
+<br>
+Rutina para brazos:3 series de 10 repeticiones con cada brazo.
+
+<div  align="center">
+  
+  <img src="Imagenes y videos/curl.jpg" width="350" height="266">
+  
+      </div>
+
+<br>
+             <a href="#page7" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>	
+
+
+</div>
+	<div data-role="footer">
+		<h4>"El camino a ninguna parte esta pavimentado con excusas."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page32">
+	<div data-role="header">
+		<h1>Curl con barra</h1>
+	</div>
+	<div data-role="content">	
+
+Ejecución del ejercicio:
+<br>
+• De pie, sostenga una barra con las manos colocadas a una separación ligeramente mayor que la anchura de sus hombros, con las palmas hacia adelante.
+<br>
+• Flexione ambos brazos sin impulsarse con el cuerpo.
+<br>
+• Descienda la barra de forma lenta. Mantenga la espalda derecha durante todo el ejercicio.
+<br>
+Rutina para brazos:3 series de 10 repeticiones.
+
+<div  align="center">
+  <img src="Imagenes y videos/bicep-curls-1.jpg" width="350" height="266">
+      </div>
+
+<br>
+             <a href="#page7" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"Hay más en la vida que entrenar, pero entrenar es lo que más pone en tu vida."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page33">
+	<div data-role="header">
+		<h1>Curl en Martillo</h1>
+	</div>
+	<div data-role="content">	
+
+Ejecución del ejercicio:
+<br>
+• Sentado (a), sostenga una mancuerna en cada mano.
+<br>
+• Flexione ambos brazos al mismo tiempo con desplazamiento exclusivo de los antebrazos.
+<br>
+• Extienda los brazos a su posición inicial. Recuerde mantener la espalda derecha durante todo el ejercicio.
+<br>
+Rutina para brazos:3 series de 10 repeticiones.
+
+<div  align="center">
+  <img src="Imagenes y videos/650_1200.jpg" width="350" height="266">
+  
+      </div>
+
+<br>
+             <a href="#page7" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+
+</div>
+	<div data-role="footer">
+		<h4>"El secreto del éxito es mantener una imagen de un resultado exitoso en la mente."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page34">
+	<div data-role="header">
+		<h1>Predicador con mancuerna</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+• Sostenga una mancuerna con una de sus manos y apoye su brazo sobre la almohadilla del predicador.
+<br>
+• Descienda la mancuerna hasta la completa extensión del brazo.
+<br>
+• Flexione el brazo hasta la posición inicial.
+<br>
+Rutina para brazo:3 series de 10 repeticiones con cada brazo.
+
+<div  align="center">
+  <img src="Imagenes y videos/curl_de_biceps_a_una_mano_con_mancuerna_en_banco_scott_20150217_1011515273.jpg" width="330" height="250">
+      </div>
+
+<br>
+             <a href="#page7" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+
+</div>
+	<div data-role="footer">
+		<h4>"No pienses en tus límites, piensa en tus posibilidades; un nuevo mundo se abrirá a tus ojos."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page35">
+	<div data-role="header">
+		<h1>Press de banca con agarre cerrado</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+• Tome la barra con las manos en pronación con una distancia de entre 6 y 12 pulgadas de separación entre una y otra, y sostenga la barra sobre el esternón con los brazos completamente extendidos.
+<br>
+•Lentamente baje la barra hasta su pecho. Asegúrese de mantener los codos doblados cerca del cuerpo, que el brazo forme un ángulo de 45 grados con su cuerpo. Haga una pausa y luego empuje la barra en línea recta hasta la posición inicial.<br><br>
+Rutina para brazo:3 series de 10 repeticiones con cada brazo.
+
+<div  align="center">
+  
+  <img src="Imagenes y videos/9920716.jpg" width="327" height="214">
+      </div>
+
+<br>
+             <a href="#page7" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+
+</div>
+	<div data-role="footer">
+		<h4>"Si los obstáculos son largos, salta con más energía."</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page37">
+	<div data-role="header">
+		<h1>Crossface</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+  • Acuestese en una banca plana  y   sostenga  una
+       mancuerna con la mano derecha.<br>
+    • Con la mano izquierda sostenga su brazo derecho 
+       para evitar su desplazamiento (observe la foto).<br>
+   • Flexione el brazo para descender la carga de forma 
+       perpendicular a su cuerpo.<br>
+   • Ascienda la mancuerna hasta la posición preliminar.<br>
+    • Cambie de brazo cuando finalice las repeticiones.<br><br>
+Rutina para brazo:3 series de 10 repeticiones con cada brazo.
+<div  align="center">
+  <img src="Imagenes y videos/crossface.jpeg" width="324" height="225">
+      </div>
+
+<br>
+             <a href="#page7" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"No mires atrás,no vas por ese camino."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page38">
+	<div data-role="header">
+		<h1>Patadas Traseras</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+  • Para realizar la patada de tríceps con mancuerna, comenzaremos agarrando una mancuerna con una mano y con las palmas hacia el torso. Manteniendo la espalda recta, con una ligera flexión de las rodillas, inclinamos hacia adelante en la cintura.<br>
+    • El torso debe estar casi en paralelo con el suelo. Los brazos deben estar cerca de su torso y también de forma paralela con el suelo. Los antebrazos apuntarán a la misma dirección mientras tenemos sujeta la mancuerna.Debe haber un ángulo de 90 grados formado entre el antebrazo y la parte superior del brazo.<br>
+   • Manteniendo quietos los brazos, debemos exhalar y utilizando el  tríceps para levantar las pesas hasta que el brazo está totalmente extendido. Nos centraremos en mover el antebrazo al ejecutar el movimiento. Después de una breve pausa en la contracción de la parte superior, inhale y baje lentamente las mancuernas hacia abajo a la posición inicial..<br><br>
+Rutina para brazo:3 series de 10 repeticiones con cada brazo.
+<div  align="center">
+ <img src="Imagenes y videos/7485770.jpg" width="373" height="255">
+      </div>
+
+<br>
+             <a href="#page7" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"Solo los caminos duros llevan a la grandeza."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page39">
+	<div data-role="header">
+		<h1>Jalones en poleas.</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+• Siéntate sujetando tus piernas debajo del rodillo de sujeción, intenta que tus talones se encuentren por justo debajo de tus rodillas, si sitúas los pies hacia atrás tu espalda tenderá a arquearse al traccionar.
+<br>
+•Realiza un agarre bien amplio, siempre con una apertura superior a la anchura de tus hombros. Desciende traccionando con la misma intensidad con ambos brazos, para ello observa que el agarre siempre se mantenga horizontal y paralelo a la superficie. El recorrido terminará al llegar el agarre a la altura del pecho y cerca de la apófisis xifoides del esternón.<br>
+<br>
+Rutina para brazo:3 series de 10 repeticiones con cada brazo.
+
+<div  align="center">
+  <img src="Imagenes y videos/poleaalpech1.png" width="345" height="220">
+      </div>
+
+<br>
+             <a href="#page7" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+
+</div>
+	<div data-role="footer">
+		<h4>"Cuando pienses en abandonar, piensa porqué empezaste."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page40">
+	<div data-role="header">
+		<h1>Jalones en Poleas Invertidas</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+  • Para hacer correctamente las extensión de tríceps en polea agarre invertido, deberemos, en primer lugar contar con una polea. El tipo de barra utilizada puede variar, no siendo necesario utilizar siempre la misma. No obstante, mientras en una rutina de ejercicios venga indicado si tenemos que utilizar una barra convencional o una barra EZ, nos ceniremos a utilizar dicho soporte hasta que finalice<br>
+    • La polea la colocaremos en una posición elevada, suficiente para que tengamos rango suficiente para poder estirar completamente los brazos para hacer el recorrido completo del ejercicio. Una vez esté perfectamente colocada, deberemos sujetarla con agarre supino, o sea con las palmas de las manos mirando hacia el techo (esta es la diferencia con la extensión de tríceps en polea) y apretaremos fuertemente para que haya una adecuada transmisión de fuerza y evitar dejar la muneca muerta.
+    <br>
+   • Con la espalda erguida, los pies abiertos a la altura de los hombros y los codos pegados al cuerpo, procederemos a bajar la barra hasta que estiremos completamente el brazo. El movimiento lo debe realizar únicamente los brazos, por tanto nada de echar el cuerpo hacia delante ni de meter tirones con la espalda. Una vez hayamos completado el recorrido, apretaremos el tríceps para congestionar el músculo adecuadamente y volveremos a subir despacio a la posición de inicio<br><br>
+Rutina para brazo:3 series de 10 repeticiones con cada brazo.
+<div  align="center">
+ <img src="Imagenes y videos/Imagen33.png" width="302" height="252">
+      </div>
+
+<br>
+             <a href="#page7" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"No se trata de si fracasas, se trata de si eres capaz de levantarte."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page41">
+	<div data-role="header">
+		<h1>Extensiones Encima de la Cabeza</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+  • Sientese  y  sostenga una mancuerna con ambas
+       manos, colocándola por detrás de su cabeza.<br>
+    • Eleve la mancuerna hasta la completa extensión de 
+       ambos brazos.<br>
+   • Flexione los brazos hasta la posición preliminar.<br>
+   <br>
+Rutina para brazo:3 series de 10 repeticiones con cada brazo.
+<div  align="center">
+  
+  <img src="Imagenes y videos/triceps1.jpg" width="350" height="266">
+      </div>
+
+<br>
+             <a href="#page7" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"Ser derrotado es a menudo una condición temporal. Rendirse es lo que lo hace permanente."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page42">
+	<div data-role="header">
+		<h1>Press Frances</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+• Echado en el banco, sujete la barra con los brazos extendidos por encima del pecho. Con las palmas hacia arriba, deje poca distancia entre las manos, unos 15 cm. Flexione los codos y baje la barra hasta tocar la frente. Empuje la barra hacia arriba, hasta que los codos queden bloqueados. Vuelva lentamente a la posición inicial.<br><br>
+Rutina para brazo: 3 series de 10 repeticiones por cada brazo.
+<div  align="center">
+  
+  <img src="Imagenes y videos/kiki.jpg" width="350" height="246">
+      </div>
+
+<br>
+             <a href="#page7" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"El fracaso es solo un cambio temporal para ponerte en la dirección de tu próximo éxito."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page43">
+	<div data-role="header">
+		<h1>Fondos</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+  •Necesitaremos acceso a unas barras paralelas. Para llegar colocarnos en la posición inicial, mantendremos nuestro cuerpo con los brazos extendidos por encima de las barras.<br>
+  • Mientras inhalamos, bajaremos lentamente con el torso inclinado hacia adelante alrededor de 30 grados más o menos y los codos ligeramente ensanchadas hasta que sintamos un leve estiramiento en el pecho.<br>
+   • Una vez que sintamos dicho estiramiento, usaremos el pecho para volver nuestro cuerpo de vuelta a la posición inicial mientras exhalamos. Deberemos recordar que tendremos que apretar el pecho en la parte superior del movimiento por un segundo.<br>
+   <br>
+   <br>
+Rutina para brazo:3 series de 10 repeticiones.
+<div  align="center">
+ <img src="Imagenes y videos/dips.jpg" width="350" height="288">
+  
+      </div>
+
+<br>
+             <a href="#page7" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"Si fracasas en prepararte, te preparas a fracasar."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page44">
+	<div data-role="header">
+		<h1>Press de Banca</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+  •Para su correcta ejecución, en primer lugar, nos acostaremos en un banco plano con los glúteos, caderas y hombros sobre el mismo banco.Los pies tienen que estar  siempre apoyados en suelo, separados un poco más allá del ancho de lo hombros. Es fundamental que los pies queden bien apoyados, pues nos aportan estabilidad y son cruciales en la transmisión de fuerza de todo el cuerpo a la hora de realizar el movimiento.<br>
+  • Las manos deberán sujetar  la barra de manera que las palmas miren hacia adelante y separadas, ligeramente más allá de la anchura de los hombros. Es muy importante que el brazo y el antebrazo formen un ángulo de 90º, por lo que debemos flexionar el codo de manera que la barra tomada con las manos quede exactamente encima del pecho. La espalda deberá ir apoyada al respaldo pues  levantar la espalda puede aumentar considerablemente el riesgo de lesiones en la curvatura lumbar. Las manos deben agarrar fuertemente a la barra, cerrando el agarre con el pulgar.<br>
+   • El movimiento se inicia, sacando la barra de los soportes, estabilizando el peso y bajando hasta tocar el pecho. Hago hincapié en tocar, pues no supone descansar, el peso debe permanecer sobre medio segundo o un segundo en la zona pectoral para el posterior despegue.<br>
+   <br>
+Rutina para pecho: 8 seies de 12 repeticiones
+<div  align="center">
+<img src="Imagenes y videos/press_banca_barra.jpg" width="300" height="214">
+  
+      </div>
+
+<br>
+             <a href="#page8" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"Lo peor que puedes ser es estar en la media."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page45">
+	<div data-role="header">
+		<h1>Press de Banca Inclinada</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+  •Elevaremos la barra de los soportes de seguridad y la mantendremos recta sobre nosotros con sus brazos totalmente estirados. Al inspirar, descenderemos lentamente hasta que sintamos que la barra toque la parte superior de nuestro pecho pecho.<br>
+  • Después de una pausa de un segundo, llevaremos la barra de nuevo a la posición inicial mientras exhalamos y empujamos la barra usando los músculos del pecho. Bloquearemos los brazos en posición contraída, apretando el pecho,  los mantendremos así por un segundo y luego comenzaremos a descender lentamente de nuevo.<br>
+   • A los que realicéis este ejercicio por primera vez , os recomiendo el uso de alguien que este pendiente de vosotros. Si no hay nadie disponible, sed conservadores con la cantidad de peso que utilicemos para evitar fallar y que la barra se nos venga encima provocando una lesión grave.<br>
+   <br>
+Rutina para pecho: 8 seies de 12 repeticiones
+<div  align="center">
+<img src="Imagenes y videos/Pectorales3.jpg" width="300" height="230">
+  
+      </div>
+
+<br>
+             <a href="#page8" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"El secreto para conseguir todas tu metas es estar comprometido."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page46">
+	<div data-role="header">
+		<h1>Press de Banca Declinada</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+  •Los brazos deberán estar perpendiculares al suelo. Esta será nuestra posición inicial. Como consejo importante, deberemos proteger nuestros manguitos rotadores,  con algún acompanante que nos ayude a sacar la barra del rack, pues sacándola nosotros mismos, sufren bastante pues no es nada fácil.<br>
+  • Al inspirar, descenderemos lentamente la barra hasta que la coloquemos en la parte inferior de nuestro pecho. Después de una pausa de un segundo, levantaremos la barra de nuevo a la posición inicial mientras exhalamos y empujamos la barra usando los músculos del pecho.<br>
+   • Bloquearemos los brazos y apretaremos nuestro pecho en la posición contraída, mientras la mantenemos por un segundo y luego empezar a descenderla lentamente de nuevo. Repetiremos el movimiento por el número de repeticiones prescrita en la rutina de ejercicios.<br>
+   <br>
+Rutina para pecho: 8 seies de 12 repeticiones
+<div  align="center">
+<img src="Imagenes y videos/press_de_banca_declinado.jpg" width="300" height="269">
+  
+      </div>
+
+<br>
+             <a href="#page8" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"Pensar en ir al gimnasio quema entre 0 y 0 calorías."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page47">
+	<div data-role="header">
+		<h1>Cristos Con Mancuernas</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+  •Ajusta un banco con una inclinación entre 30 y 45 grados. Sobrepasar esta inclinación aumenta la participación de los deltoides.
+<br>
+  • Túmbate boca arriba sobre un banco con los pies sobre el suelo y una separación igual o ligeramente superior a la anchura de los hombros para mantener el equilibrio. Coloca las rodillas flexionadas 90 grados.<br>
+   • Coge unas mancuernas con un agarre neutral (las palmas mirándose) y extiende los brazos sobre el pecho con los codos ligeramente doblados.<br>
+   • Inspira profundamente y aguanta la respiración mientras bajas los brazos hacia los lados. Mantén los codos ligeramente bloqueados y ligeramente doblados a lo largo de todo el recorrido.<br>
+   • Cuando la parte superior de los brazos se aproxime al nivel de los hombros y sientas el estiramiento de los hombros, invierte el movimiento suavemente y no te detengas en la posición más baja.<br>
+   • Sube los brazos hasta la vertical y expulsa el aire cuando pases el punto de máxima dificultad del ascenso o cuando hayas alcanzado la posición más alta.<br>
+ • Los brazos deben permanecer alineados con los hombros durante todo el recorrido.<br>
+   <br>
+Rutina para pecho: 8 seies de 12 repeticiones
+<div  align="center">
+<img src="Imagenes y videos/cinc.jpg" width="300" height="229">
+  
+      </div>
+
+<br>
+             <a href="#page8" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"Cuando comienza a doler es cuando comienza la sesión."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page48">
+	<div data-role="header">
+		<h1>Fondos Militares o Lagartijas</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+  •Túmbate en el suelo boca abajo, las palmas de las manos apoyadas en el suelo separadas a la altura de los hombros y con los dedos apuntando hacia el frente.<br>
+  • Estira las piernas, mantenlas casi juntas, con los dedos de los pies mirando al frente.<br>
+   • Mantén el cuerpo estirado, durante todo el recorrido mira al suelo.<br>
+   •Empieza el ejercicio elevando el cuerpo con los tríceps y con el pecho, mantén la posición dos o tres segundos y baja hasta que la cara quede a unos centímetros del suelo.<br>
+   •Trabaja además del pecho y el tríceps, los hombros<br>
+   <br>
+Rutina para pecho: 8 seies de 12 repeticiones
+<div  align="center">
+
+  <img src="Imagenes y videos/lagartijas-pliometricas.jpg" width="300" height="230">
+      </div>
+
+<br>
+             <a href="#page8" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"Identifica la primera acción física que tienes que llevar a cabo y hazla."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page49">
+	<div data-role="header">
+		<h1>Desplantes</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+  •Uno de los principales errores que se comete al realizar la ejecución del desplante es la postura inicial. El pie que queda atrás siempre debe estar en punta y la rodillas de ésta pierna ligeramente flexionada. Si en algún momento el talón de este pie toca el piso es muy posible que llegues a perder el equilibrio. La espalda siempre debe estar recta, antes y durante de cada movimiento.<br>
+   • La rodilla que está atrás debe bajar al piso en busca de ambas piernas logren un ángulo de 90 grados en relación de la pierna y pantorrilla . Ojo, se debe de tener cuidado de que el movimiento no sea hacia al frente, siempre es movimiento vertical, de arriba hacia abajo. Observemos en la siguiente imagen que en el punto final el pie de apoyo está completamente recargado sobre el piso. Cuando se regresa el punto superior la rodilla de la pierna que se mantiene al frente jamás se estira completamente, se queda flexionada tal y como en el punto de partida, esto, además de ser parte de una buena ejecución, ayuda a mantener la tensión en la pierna y a cuidar las articulaciones.<br>
+   •La apertura de las piernas es un tema importante. Antes de comenzar la ejecución en forma tómate un tiempo practicar el movimiento. La abertura de tus extremidades debe ser la óptima para que tu pierna de atrás quede con el pie en punta y con la rodilla ligeramente doblada; mientras que la pierna de enfrente no debe estar estirada y de esta manera te permita bajar en la posición correcta sin perder la postura de la espalda y el equilibrio.<br>
+   <br>
+Rutina para pierna: 8 seies de 15 repeticiones
+<div  align="center">
+
+<img src="Imagenes y videos/images (3).jpeg" width="385" height="277">
+
+      </div>
+
+<br>
+             <a href="#page9" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"Para conseguir algo que nunca has conseguido antes, debes hacer algo que nunca has hecho antes."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page50">
+	<div data-role="header">
+		<h1>Sentadilla</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+  •Tener las piernas ligeramente separadas – para que sea fácil mantener el equilibrio.<br>
+   • Hacemos la sentadilla en el momento que las piernas en las rodillas forman aproximadamente un ángulo recto.
+<br>
+   •Doblamos las rodillas en línea recta sobre los pies.<br>
+   • Hacemos la sentadilla, retirando las nalgas hacia atrás, de tal forma que las rodillas no salgan de la posición de los dedos de los pies.
+<br>
+   <br>
+Rutina para pierna: 8 seies de 15 repeticiones
+<div  align="center">
+
+<img src="Imagenes y videos/125-core2_thumb_a.jpg" width="320" height="240">
+
+      </div>
+
+<br>
+             <a href="#page9" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"El trabajo duro gana al talento cuando el talento no trabaja duro."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page51">
+	<div data-role="header">
+		<h1>Elevacion Lateral</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+  •Para realizar las elevaciones laterales de pierna, deberemos colocarnos de pie, colocando una pierna recta, con la espalda estirada y manteniendo dicha pierna de apoyo con la rodilla ligeramente semiflexionada.<br>
+   • La pierna opuesta, deberá estar ligeramente levantada del suelo, debiéndola levantarla tan alto como nos sea posible, por lo general a unos 45 grados.Deberemos mantener el núcleo musculoso apretado durante el movimiento.
+<br>
+   •Evitaremos doblar la cintura para compensar la debilidad de los músculos y descansar las manos en las caderas para mantener evitar involucrar los brazos en el ejercicio. Bajaremos de nuevo a la posición inicial y repetiremos el proceso.<br>
+   • Procuraremos no doblar la cintura para compensar la debilidad de los músculos y descansar las manos en las caderas para mantener evitar involucrar los brazos en el ejercicio.  Podemos apoyar el codo en la silla para estar más cómodos, pero deberemos asegurarnos de que nuestra espalda está alineada  con las piernas y no inclinado hacia adelante.
+<br>
+   <br>
+Rutina para pierna: 8 seies de 15 repeticiones
+<div  align="center">
+
+<img src="Imagenes y videos/rutina-piernas-balance-ejercicio-06.jpg" width="324" height="251">
+
+      </div>
+
+<br>
+             <a href="#page9" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"Mientras los ganadores entrenan, los perdedores se quejan."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page52">
+	<div data-role="header">
+		<h1>Eleva la Pierna</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+  •Acostada de lado, con el codo en el suelo sujetando la cabeza y la otra mano apoyada en el suelo. Eleva la pierna en extensión hacia arriba, delante o detrás. También puedes realizar pequenos círculos en ambos sentidos o mantener una contracción isométrica.<br>
+   <br>
+Rutina para pierna: 8 seies de 15 repeticiones
+<div  align="center">
+
+<img src="Imagenes y videos/gluteo1.jpg" width="260" height="320">
+
+      </div>
+
+<br>
+             <a href="#page9" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"La falta de éxito es una consecuencia del miedo a arriesgarse y sentirse incómodo."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page53">
+	<div data-role="header">
+		<h1>Levanta Cadera</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+  •Acuéstate boca arriba, con los pies apoyados sobre el piso y las piernas flexionadas. Estira los brazos hacia arriba, y levanta la cadera, haciendo fuerza con los glúteos para sentir bien el trabajo. Mantén la posición durante unos segundos, baja y repite unas 40 vece<br>
+   <br>
+Rutina para pierna: 8 seies.
+<div  align="center">
+
+<img src="Imagenes y videos/adelgazar-las-caderas1.jpg" width="331" height="248">
+
+      </div>
+
+<br>
+             <a href="#page9" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"Todo lo que duele te ensena."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page54">
+	<div data-role="header">
+		<h1>Curl Abdominal</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+  • Acostado (a) sobre una banca, coloque ambas manos sosteniendo su cabeza.
+
+• Eleve la mitad superior del tronco por medio de la contraccion de sus abdominales.
+
+• Descienda el tronco de forma controlada.<br>
+   <br>
+Rutina para abdomen: 3 series de 12 repeticiones.
+<div  align="center">
+
+<img src="Imagenes y videos/3307725.gif" width="325" height="297">
+
+      </div>
+
+<br>
+             <a href="#page10" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"El respeto no se demanda, se gana."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page55">
+	<div data-role="header">
+		<h1>Flexion De Piernas En Banco</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+  • El movimiento consiste en efectuar una flexión simultánea de las piernas, intentando tocar los glúteos con los talones. Este ejercicio trabaja el conjunto de los músculos isquiotibiales, así como los músculos gemelos.<br>
+
+• Este movimiento se ejecuta lentamente, siendo lo esencial concentrarse en la contracción máxima de los músculos, al final de la flexión de las piernas. Como la mayoría de ejercicios de flexión sin cargas adicionales, las series largas proporcionaran mejores resultados.<br>
+
+• Puedes ir aumentando gradualmente el número de repeticiones por serie, para no cansarte. Si se desea dotar al ejercicio de una mayor intensidad, te recomendamos anadirle lastres o mancuernas en los tobillos.<br>
+
+• Baja las piernas lentamente. Baja las piernas hasta que queden a unos 2,5 cm (1 pulgada) del suelo). No dejes que la gravedad haga el trabajo por ti. Asegúrate de controlar el movimiento de bajada. Mantén los brazos en la misma posición, pero utilízalos para ganar fuerza y soporte al bajar las piernas.<br>
+   <br>
+Rutina para abdomen: 3 series de 12 repeticiones.
+<div  align="center">
+
+<img src="Imagenes y videos/abdominales-sentado.jpeg" width="300" height="250">
+
+      </div>
+
+<br>
+             <a href="#page10" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"La única prueba es lo que ves al mirarte en el espejo."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page56">
+	<div data-role="header">
+		<h1>Levantamiento de Piernas</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+  • Túmbate boca arriba con las piernas estiradas frente a ti. Las piernas deben quedar separadas entre sí solo a uno o dos centímetros. Asegúrate de mantener las manos a los lados, con las palmas hacia abajo apoyadas en el suelo.<br>
+
+• Flexiona las rodillas y levanta las piernas. Las espinillas deben quedar paralelas al suelo, mientras que los muslos se mantendrán perpendiculares.Debes mantener los pies estirados durante el ejercicio, dirigiendo los abdominales hacia la columna. Los muslos deben quedar perpendiculares al cuerpo, y las espinillas paralelas.<br>
+
+• Estira las piernas hasta que los pies queden apuntando hacia el techo. Mantén los pies estirados y eleva las piernas con la mayor lentitud posible. Recuerda que no debes separar las lumbares del suelo arqueando la espalda si no quieres acabar lesionándote y sin obtener beneficio alguno de la sesión de ejercicios.<br>
+   <br>
+Rutina para abdomen: 3 series de 12 repeticiones.
+<div  align="center">
+
+<img src="Imagenes y videos/untitled4.jpg" width="322" height="201">
+
+      </div>
+
+<br>
+             <a href="#page10" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"Ganar es el segundo paso, querer ganar es el primero."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page57">
+	<div data-role="header">
+		<h1>Laterales con Mancuernas</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+  • Para la correcta realización de la flexión lateral de tronco, deberemos inclinar la parte superior de nuestro cuerpo hacia uno de los costados, y tras una breve pausa, volveremos a la posición inicial. Para finalizar la serie, deberemos realizar la inclinación hacia el costado contrario. Deberemos ser cuidadosos y controlar la inclinación pues tampoco es necesario realizar un movimiento descendente especialmente profundo ni brusco.<br>
+
+• Aunque la flexión lateral de tronco se puede ejecutar sin equipo, lo recomendable es usar cierto peso del mismo kilaje en ambas manos. Esto hará que el ejercicio sea más complicado, dándole un grado de dificultad el mismo que estimulará los músculos abdominales de una forma efectiva. Recordad que podéis usar material casero para entrenar como os contábamos en nuestro artículo sobre mancuernas caseras.<br>
+   <br>
+Rutina para abdomen: 3 series de 12 repeticiones.
+<div  align="center">
+
+<img src="Imagenes y videos/flexion_lateral_con_mancuerna.jpg" width="319" height="226">
+
+      </div>
+
+<br>
+             <a href="#page10" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"El carácter es quien eres cuando nadie mira."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page58">
+	<div data-role="header">
+		<h1>Pies y Manos (Acostado)</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+  • Acostado con los brazos y piernas extendidos, trataremos de tocar la punta de los pies con los dedos de las manos por medio de la flexión a nivel del tronco. Posteriormente, volveremos a la posición inicial para reiniciar el movimiento. La espalda deberá permanecer recta, ya que la fuerza se ejercerá a nivel de los abdominales.
+Entrenarás tanto la región superior como inferior de los rectos abdominales.<br>
+   <br>
+Rutina para abdomen: 3 series de 12 repeticiones.
+<div  align="center">
+
+<img src="Imagenes y videos/mano y pie.jpeg" width="331" height="228">
+
+      </div>
+
+<br>
+             <a href="#page10" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"El único lugar donde el éxito viene antes del trabajo es en el diccionario."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page59">
+	<div data-role="header">
+		<h1>Polea tras Nuca</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+  • Siéntate de frente al aparato y fija tus pies en los cojines. Coge la barra en pronación (movimiento del antebrazo que hace girar la mano de fuera a dentro presentando el dorso de ella) con las manos muy separadas entre sí.<br>
+  • Inspira y lleva la barra hasta la nuca. Al mismo tiempo dirige los codos hacia el tronco. Espira al final del movimiento.<br>
+   <br>
+Rutina para espalda: 3 series de 12 repeticiones.
+<div  align="center">
+
+<img src="Imagenes y videos/polea.jpeg" width="355" height="298">
+
+      </div>
+
+<br>
+             <a href="#page11" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		h4>"Algunos quieren que ocurra, otros desearían que ocurra, otros hacen que ocurra."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page60">
+	<div data-role="header">
+		<h1>Polea al pecho</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+  • Siéntate frente al aparato y fija las piernas en las almohadillas. Coge la barra en pronación (movimiento del antebrazo que hace girar la mano de fuera a dentro presentando el dorso de ella) con las manos bastante separadas.<br>
+  • Tira del barra y llevala hasta el esternón. Cuando lo hagas ensancha el pecho y tira los codos hacia detrás. Espira al final del movimiento.<br>
+   <br>
+Rutina para espalda: 3 series de 12 repeticiones.
+<div  align="center">
+
+<img src="Imagenes y videos/pp.jpeg" width="345" height="226">
+
+      </div>
+
+<br>
+             <a href="#page11" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		h4>"Si no vives por algo, morirás por nada."</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page61">
+	<div data-role="header">
+		<h1>Dominadas</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+  • Las dominadas abiertas son exactamente iguales que las dominadas convencionales, simplemente cambiando la posición de las manos. Se abren más las manos con el fin de trabajar más los músculos dorsales y se pueden realizar, con agarre supino y agarre pronador.<br>
+ <br>
+Rutina para espalda: 3 series de 12 repeticiones.
+<div  align="center">
+
+<img src="Imagenes y videos/dominada.jpg" width="350" height="288">
+
+      </div>
+
+<br>
+             <a href="#page11" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"Construye tu cuerpo, construye tu carácter."</h4>
+        </div>
+        </div>
+        
+        <div data-role="page" id="page63">
+	<div data-role="header">
+		<h1>Remo inclinado con barra</h1>
+	</div>
+	<div data-role="content">	
+Ejecución del ejercicio:
+<br>
+  •De pie, con los pies separados a la altura de los hombros, coge una barra con un agarre mayor que la anchura de los hombros y las palmas mirando hacia el cuerpo. Con los brazos extendidos regresa a la posición erguida.<br>
+   •Manteniendo las rodillas ligeramente dobladas, echa el cuerpo hacia delante doblando la cintura hasta que el torso quede casi paralelo unos 30 grados sobre la horizontal, con la cabeza ligeramente levantada. La barra debe quedar colgando frente a las espinillas. Esta es la posición inicial.<br>
+    •Toma aire y mantén la respiración mientras llevas la barra hacia la cintura, manteniendo los codos pegados a los lados para que se puedan mover hacia atrás mientras tiras de la barra hacia arriba.
+<br>
+ <br>
+Rutina para espalda: 3 series de 12 repeticiones.
+<div  align="center">
+
+<img src="Imagenes y videos/remoincbarra.gif" width="330" height="228">
+
+      </div>
+
+<br>
+             <a href="#page11" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"Construye tu cuerpo, construye tu carácter."</h4>
+        </div>
+        </div>
+        
+         <div data-role="page" id="page27">
+	<div data-role="header">
+		<h1>CROSSFIT</h1>
+	</div>
+	<div data-role="content">	
+   Bajo este nombre se ofrece un programa que se centra en la fuerza muscular, la resistencia cardiorespiratoria y la flexibilidad. Todo a la vez.<br><br>
+Los ejercicios se ejecutan con mucha intensidad, intentando hacer el mayor número de repeticiones en un tiempo determinado. El ambiente suele estar entre la instrucción del sargento de hierro y el patio del colegio, donde los monitores gritan para azuzar a los deportistas y todo el mundo intenta superar las marcas de los demás. Puede ser adictivo.
+<br>
+El entrenamiento típico consiste en tres partes:<br>
+•	Calentamiento, 15 min<br>
+•	WOD (Workout Of the Day): entrenamiento del día, la parte principal, basado en un circuito de varios ejercicios básicos<br>
+•	Enfriamiento, 15 min<br>
+
+<br>
+Estos son algunos de los ejercicios básicos de CrossFit:
+<br>
+•	Sentadillas<br>
+•	Saltos del suelo a un cajón<br>
+•	Burpees<br>
+•	Saltar a la comba<br>
+•	Zancada<br>
+•	Fondos en paralelas o en anillas<br>
+•	Flexiones en el suelo<br>
+•	Dominadas en barra<br>
+•	Subir la cuerda<br>
+•	Correr<br>
+•	Peso muerto<br>
+•	Arrancada con barra<br>
+•	Balanceos con kettlebell<br>
+•	Voltear un neumático (enorme, de tractor)<br>
+•	Lanzar balón medicinal contra la pared<br>
+
+<div  align="center">
+<img src="Imagenes y videos/cross.jpg" width="384" height="240">
+
+      </div>
+
+<br>
+             <a href="#page6" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"Tu solo escribes tu destino."</h4>
+        </div>
+        </div>
+
+         <div data-role="page" id="page28">
+	<div data-role="header">
+		<h1>SPINNING</h1>
+	</div>
+	<div data-role="content">	
+   El spinning es un ejercicio aeróbico con el que se trabajan principalmente los músculos del tren inferior: glúteos y piernas, pero también se trabajan otros grupos de músculos asociados haciéndolo un ejercicio muy completo, ideal para adelgazar y tonificar el cuerpo de forma general.<br><br>
+   Se trabaja  en sesiones guiadas por un entrenador especializado, basándose en cambios cíclicos de intensidad y velocidad del pedaleo. Se realiza en diferentes fases de un circuito que incluye simulaciones de subidas y bajadas en pendientes, rectas a fondo, planeo, fases de recuperación y desaceleración, etc.<br>
+El objetivo de este completo programa de ejercicio es trabajar a fondo la fuerza  y la resistencia corporal, para ello se combina el ejercicio aeróbico con períodos más cortos de mayor intensidad que trabajan a nivel muscular.
+
+<div  align="center">
+
+<img src="Imagenes y videos/spinning.png" width="380" height="455">
+      </div>
+
+<br>
+             <a href="#page6" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"Recuerda el porque."</h4>
+        </div>
+        </div>
+
+<div data-role="page" id="page29">
+	<div data-role="header">
+		<h1>NATACION</h1>
+	</div>
+	<div data-role="content">	
+ Uno de los ejercicios más completos para trabajar tu mente y cuerpo es la natación; te mantiene en forma, fortalece tus músculos y tu memoria, por lo que es recomendable que se practique a cualquier edad.<br><br>
+• Tu calidad de vida mejora. La natación te permite retrasar la etapa del envejecimiento; tu capacidad motriz aumenta, al igual que tu memoria, ya que se requiere mayor concentración y coordinación.<br>
+• Hace que estés más alerta, con más equilibrio y que tengas un tiempo de reacción complejo más eficiente y rápido; las heridas tardan menos en sanar.<br>
+• Quemas mayor número de calorías. En el agua tus músculos trabajan de cinco a seis veces más que en tierra firme.<br>
+• La natación aumenta tu masa muscular y la tonifica; alarga tus músculos y mejora tu silueta. Una hora de este ejercicio te permite quemar hasta 600 calorías.<br>
+• Tu cuerpo se hace más resistente, ya que la natación aumenta el grosor de tus huesos.<br>
+• Tu organismo adquiere mayor movilidad y elasticidad. La natación permite ejercitar las articulaciones, aumenta su flexibilidad y el rango de movimiento.<br>
+• Favorece la actividad del sistema cardiorrespiratorio.<br>
+• Aumenta la flexibilidad de la columna y elimina los dolores.<br>
+• Mejora tu circulación. Cuando nadas, le das un masaje a cada órgano de tu cuerpo, la sangre se activa y te sientes mejor.<br>
+• El nadar relajas no sólo los músculos del cuerpo, sino también tu mente, por lo que tu estrés disminuye considerablemente.<br>
+<div  align="center">
+<img src="Imagenes y videos/natacion.png" width="347" height="264">
+
+      </div>
+
+<br>
+             <a href="#page6" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"Suerte."</h4>
+        </div>
+        </div>
+
+ <div data-role="page" id="page24">
+	<div data-role="header">
+		<h1>Video 1</h1>
+	</div>
+	<div data-role="content">	
+   
+<div  align="center">
+
+<font color="#99CC00" > <h1> COMING SOON </h1></font>
+     </div>
+<br>
+             <a href="#page5" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"Tu solo escribes tu destino."</h4>
+        </div>
+        </div>
+        
+        <div data-role="page" id="page25">
+	<div data-role="header">
+		<h1>Video 2</h1>
+	</div>
+	<div data-role="content">	
+   
+<div  align="center">
+
+<font color="#99CC00" > <h1> COMING SOON </h1></font>
+     </div>
+<br>
+             <a href="#page5" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"Tu solo escribes tu destino."</h4>
+        </div>
+        </div>
+        
+        <div data-role="page" id="page26">
+	<div data-role="header">
+		<h1>Video 3</h1>
+	</div>
+	<div data-role="content">	
+   
+<div  align="center">
+
+<font color="#99CC00" > <h1> COMING SOON </h1></font>
+     </div>
+<br>
+             <a href="#page5" data-role="button">Regresar</a>	
+              <br>
+             <a href="#page" data-role="button">Menu</a>
+
+</div>
+	<div data-role="footer">
+		<h4>"Tu solo escribes tu destino."</h4>
+        </div>
+        </div>
+
+
+</body>
+</html>
